@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Tim IJntema 1682222" Database="">
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="opdracht 1 week 1" ConfigName="Debug"/>
+      <Project Name="opdracht 1 week 1" ConfigName="Debug"/>
+      <Project Name="opdracht 1 week 1" ConfigName="Debug"/>
+      <Project Name="opdracht_2_week_1" ConfigName="Debug_Linux"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="opdracht 1 week 1" ConfigName="Release"/>
+      <Project Name="opdracht 1 week 1" ConfigName="Release"/>
+      <Project Name="opdracht 1 week 1" ConfigName="Release"/>
+      <Project Name="opdracht_2_week_1" ConfigName="Debug_Linux"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
