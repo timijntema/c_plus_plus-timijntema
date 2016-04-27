@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="example code" Database="">
-  <Project Name="opdracht1week1" Path="opdracht1week1/_codelite.project" Active="No"/>
-  <Project Name="opdracht_2_week_1" Path="opdracht_2_week_1/_codelite.project" Active="Yes"/>
+  <Project Name="week_1_opdracht_2" Path="week_1_opdracht_2/_codelite.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Release" Selected="yes">
-      <Environment/>
-      <Project Name="opdracht1week1" ConfigName="Debug"/>
-      <Project Name="opdracht_2_week_1" ConfigName="Debug"/>
+      <Project Name="week_1_opdracht_2" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
+  <Project Name="week_1_oprdacht_1" Path="week_1_oprdacht_1/_codelite.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Release" Selected="yes">
-      <Environment/>
-      <Project Name="opdracht1week1" ConfigName="Debug"/>
-      <Project Name="opdracht_2_week_1" ConfigName="Debug"/>
+      <Project Name="week_1_oprdacht_1" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <Project Name="week_2_opdracht_1" Path="week_2_opdracht_1/_codelite.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="week_2_opdracht_1" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
