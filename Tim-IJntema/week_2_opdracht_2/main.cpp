@@ -2,6 +2,17 @@
 #include "catch_with_main.hpp"
 #include "rational.hpp"
 
+/*std::ostream & operator<<(std::ostream & lhs, rational & rhs){
+	std::cout << std::showbase << std::internal << std::setfill('0') << std::setw(4);
+	lhs << std::hex << rhs.counter << '/' << rhs.denominator << std::dec;
+	return lhs;
+}*/
+
+/*std::ostream & operator<<( std::ostream & lhs, vector pos ){
+	lhs << "(" << pos.x << "," << pos.y << ")";
+	return lhs;
+}*/
+
 TEST_CASE( "constructor, two_parameters" ){
    rational v( 3, 4 );
    std::stringstream s;
@@ -85,7 +96,7 @@ TEST_CASE( "multiply rational into rational" ){
 TEST_CASE( "multiply rational into rational; reduction" ){
    rational v( 2, 3 );
    v *= rational( 3, 2 ); 
-   REQUIRE( v == rational( 1, 1 ) );     
+   REQUIRE( v == rational( 1, 1 ) );//1,1
 }
 
 TEST_CASE( "multiply rational into rational; return value" ){
@@ -93,9 +104,3 @@ TEST_CASE( "multiply rational into rational; return value" ){
    rational x = ( v *= rational( 1, 2 )); 
    REQUIRE( x == rational( 3, 20 ) );     
 }
-
-
-
-
-
-

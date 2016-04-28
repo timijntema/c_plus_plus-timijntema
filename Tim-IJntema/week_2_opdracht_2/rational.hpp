@@ -13,25 +13,23 @@
 /// and denominator have no common factors.
 class rational {
 private:
-   int counter;
+	int counter;//maybe on the bottom
    int denominator;
-   
-   void reduce(){
+      void reduce(){
       int a = counter;
       int b = denominator;
 
-      while( b ){
+      while( b){// != 0 
          int temp = b;
          b = a % b;
          a = temp;
       }
 
-      if( a ){
+      if( a != 0){
          counter /= a;
          denominator /= a;
       }
    }
-   
 public:
    /// constructor from explicit values
    //
@@ -40,11 +38,8 @@ public:
    /// with just a whole value.
    rational( int counter, int denominator = 1 ):
      counter( counter ), denominator( denominator )
-   {}
-   
-   std::ostream & operator<<(std::ostream & lhs, const rational & rhs){
-	   cout << showbase << internal << setfill('0');
-	   return lhs<< std::hex << counter << '/' << denominator << std::dec <<;
+   {
+	   reduce();
    }
    
    /// compare two rational values
@@ -53,7 +48,7 @@ public:
    /// if and only if the counter and denminator of both
    /// operands are equal.
    bool operator==( const rational & rhs ) const {
-      return ( counter == rhs.counter ) || ( denominator == rhs.denominator );
+      return ( counter == rhs.counter ) && ( denominator == rhs.denominator );
    }
 
    /// output operator for a rational value
@@ -62,24 +57,21 @@ public:
    /// [counter/denominator] where both values are printed as
    /// decimal values.
    friend std::ostream & operator<<( std::ostream & lhs, const rational & rhs ){
-      return lhs << "[" << rhs.counter << "/" << rhs.denominator << "}";
+      return lhs << "[" << rhs.counter << "/" << rhs.denominator << "]";
    }   
    
    /// multiply a rational by an integer
    //
    /// This operator* multiplies a rational value by an integer value.
    rational operator*( const int rhs ) const {
-      return rational( counter * rhs, denominator * rhs );
+		return rational(counter * rhs, denominator);
    }
    
    /// multiply a rational by a rational
    //
    /// This operator* multiplies a rational value by a rational value.
-   rational operator*( const rational & rhs ) const {
-      return rational( 
-         denominator * rhs.denominator,
-         counter * rhs.counter
-      );
+   rational operator*( const rational & rhs )const{
+	  return rational(counter*rhs.counter, denominator*rhs.denominator);
    }
    
    /// add a rational to another rational
@@ -95,11 +87,11 @@ public:
    ///Mulitply a rational with another rational
    //
    ///Multiply a rational by another rational and assign it to the first rational
-   rational operator*=( const rational & rhs ){
-      counter = counter + rhs.counter;
-      denominator += rhs.denominator;
-      reduce();
-      return rhs;
+   rational & operator*=( const rational & rhs ){
+      counter *= rhs.counter;
+      denominator *= rhs.denominator;
+	  reduce();
+      return *this;
    }
    
 };

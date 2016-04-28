@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="example code" Database="">
   <Project Name="week_1_opdracht_2" Path="week_1_opdracht_2/_codelite.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="week_1_opdracht_2" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
   <Project Name="week_1_oprdacht_1" Path="week_1_oprdacht_1/_codelite.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="week_1_oprdacht_1" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
   <Project Name="week_2_opdracht_1" Path="week_2_opdracht_1/_codelite.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Project Name="week_2_opdracht_1" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
-  <Project Name="week_2_opdracht_2" Path="week_2_opdracht_2/week_2_opdracht_2.project" Active="Yes"/>
+  <Project Name="week_2_opdracht_2" Path="week_2_opdracht_2/_codelite.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Release" Selected="yes">
-      <Environment/>
-      <Project Name="week_1_opdracht_2" ConfigName="Release"/>
-      <Project Name="week_2_opdracht_2" ConfigName="Debug_Linux"/>
+      <Project Name="week_2_opdracht_2" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
-  <Project Name="week_2_opdracht_3" Path="week_2_opdracht_3/week_2_opdracht_3.project" Active="No"/>
+  <Project Name="week_2_opdracht_3" Path="week_2_opdracht_3/_codelite.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Release" Selected="yes">
-      <Environment/>
-      <Project Name="week_1_oprdacht_1" ConfigName="Release"/>
-      <Project Name="week_2_opdracht_3" ConfigName="Debug_Linux"/>
+      <Project Name="week_2_opdracht_3" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
