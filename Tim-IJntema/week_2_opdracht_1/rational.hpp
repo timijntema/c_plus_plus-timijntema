@@ -85,7 +85,7 @@ public:
    
    /// add a rational to another rational
    //
-   /// This operator+= adds a rational value a rational variable.
+   /// add a rational value to a rational variable.
    rational & operator+=( const rational & rhs ){
       counter = counter * rhs.denominator + rhs.counter * denominator;
       denominator *= rhs.denominator;

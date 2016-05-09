@@ -13,24 +13,26 @@
 /// and denominator have no common factors.
 class rational {
 private:
-	int counter;//maybe on the bottom
-   int denominator;
-      void reduce(){
-      int a = counter;
-      int b = denominator;
+	//int counter;//maybe on the bottom
+	//int denominator;
+	void reduce(){
+		int a = counter;
+		int b = denominator;
 
-      while( b){// != 0 
-         int temp = b;
-         b = a % b;
-         a = temp;
-      }
+		while( b){// != 0 
+			int temp = b;
+			b = a % b;
+			a = temp;
+		}
 
-      if( a != 0){
-         counter /= a;
-         denominator /= a;
-      }
-   }
+		if( a != 0){
+			counter /= a;
+			denominator /= a;
+		}
+	}
 public:
+	int counter;//maybe on the bottom
+	int denominator;
    /// constructor from explicit values
    //
    /// This constructor initializes a rational from its counter and denominator.

@@ -1,0 +1,27 @@
+var NAVTREEINDEX0 =
+{
+"annotated.html":[0,0],
+"classes.html":[0,1],
+"classrational.html":[0,0,0],
+"classrational.html#a13f267e5cdafffcc44203762548bb5cd":[0,0,0,2],
+"classrational.html#a2b5729aef261d16cd18ff7c7fcbf8c6e":[0,0,0,3],
+"classrational.html#a5b7c78fca4537715369ba7da02abb4df":[0,0,0,6],
+"classrational.html#a5f971ef33181044f54d8e4fee71cb957":[0,0,0,0],
+"classrational.html#a5f9a93cc7fd6309f5eae4c76d81f28d5":[0,0,0,5],
+"classrational.html#a9b83ad0c803d2ac242b42e71d954a356":[0,0,0,4],
+"classrational.html#acbaf4f76b2caf4aafb850202e29d69ce":[0,0,0,1],
+"dir_8984e690fd211d414fc561efee75baf3.html":[1,0,0,0,0,0,0,0],
+"dir_8e51d5aead33f181337d03bdfb151a29.html":[1,0,0,0],
+"dir_8f49b2a445dae3938933a3d7bf3af980.html":[1,0,0,0,0,0,0],
+"dir_a087c6d806da3937c161b52ac2923ba1.html":[1,0,0,0,0,0],
+"dir_d522931ffa1371640980b621734a4381.html":[1,0,0],
+"dir_e5a874115f26861151c92afcd2a5cdf4.html":[1,0,0,0,0],
+"files.html":[1,0],
+"functions.html":[0,2,0],
+"functions_func.html":[0,2,1],
+"functions_rela.html":[0,2,2],
+"index.html":[],
+"pages.html":[],
+"rational_8hpp.html":[1,0,0,0,0,0,0,0,0],
+"rational_8hpp_source.html":[1,0,0,0,0,0,0,0,0]
+};

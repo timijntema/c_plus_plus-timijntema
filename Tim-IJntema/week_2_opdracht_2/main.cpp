@@ -2,11 +2,12 @@
 #include "catch_with_main.hpp"
 #include "rational.hpp"
 
-/*std::ostream & operator<<(std::ostream & lhs, rational & rhs){
-	std::cout << std::showbase << std::internal << std::setfill('0') << std::setw(4);
-	lhs << std::hex << rhs.counter << '/' << rhs.denominator << std::dec;
+
+std::ostream & operator<<(std::ostream & lhs, rational & rhs){
+	//std::cout << std::showbase << std::internal << std::setfill('0') << std::setw(4);
+	lhs << std::showbase << std::internal << std::setfill('0') << std::setw(6) << std::hex << rhs.counter << '/' << std::setw(6) << rhs.denominator << std::dec;
 	return lhs;
-}*/
+}
 
 /*std::ostream & operator<<( std::ostream & lhs, vector pos ){
 	lhs << "(" << pos.x << "," << pos.y << ")";
