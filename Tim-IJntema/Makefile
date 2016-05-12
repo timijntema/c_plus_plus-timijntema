@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ week_2_opdracht_3 -  ]----------"
-	@cd "week_2_opdracht_3" && "$(MAKE)" -f  "week_2_opdracht_3.mk"
+	@echo "----------Building project:[ week_3_opdracht_1 -  ]----------"
+	@cd "week_3_opdracht_1" && "$(MAKE)" -f  "week_3_opdracht_1.mk"
 clean:
-	@echo "----------Cleaning project:[ week_2_opdracht_3 -  ]----------"
-	@cd "week_2_opdracht_3" && "$(MAKE)" -f  "week_2_opdracht_3.mk" clean
+	@echo "----------Cleaning project:[ week_3_opdracht_1 -  ]----------"
+	@cd "week_3_opdracht_1" && "$(MAKE)" -f  "week_3_opdracht_1.mk" clean

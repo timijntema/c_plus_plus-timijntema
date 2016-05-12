@@ -58,9 +58,11 @@ public:
    /// This operator<< prints a constructor in the format
    /// [counter/denominator] where both values are printed as
    /// decimal values.
+   
+   /*
    friend std::ostream & operator<<( std::ostream & lhs, const rational & rhs ){
       return lhs << "[" << rhs.counter << "/" << rhs.denominator << "]";
-   }   
+   }*/
    
    /// multiply a rational by an integer
    //

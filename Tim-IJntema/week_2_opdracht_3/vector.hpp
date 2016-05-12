@@ -10,7 +10,7 @@
 /// The x and y components are public attributes. 
 /// The appropriate constructors and operators are provided.
 class vector {
-public:   
+public:
 	int x;
 	int y;
    /// default constructor

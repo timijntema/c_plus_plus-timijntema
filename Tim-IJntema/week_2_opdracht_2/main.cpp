@@ -4,21 +4,15 @@
 
 
 std::ostream & operator<<(std::ostream & lhs, rational & rhs){
-	//std::cout << std::showbase << std::internal << std::setfill('0') << std::setw(4);
 	lhs << std::showbase << std::internal << std::setfill('0') << std::setw(6) << std::hex << rhs.counter << '/' << std::setw(6) << rhs.denominator << std::dec;
 	return lhs;
 }
 
-/*std::ostream & operator<<( std::ostream & lhs, vector pos ){
-	lhs << "(" << pos.x << "," << pos.y << ")";
-	return lhs;
-}*/
-
-TEST_CASE( "constructor, two_parameters" ){
-   rational v( 3, 4 );
+TEST_CASE( "show hex values of a rational" ){
+   rational v( 13, 14 );
    std::stringstream s;
    s << v;
-   REQUIRE( s.str() == "[3/4]" );   
+   REQUIRE( s.str() == "0x000d/0x000e" );   
 }
 
 TEST_CASE( "equality, equal" ){

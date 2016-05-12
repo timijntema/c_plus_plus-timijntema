@@ -1,10 +1,24 @@
+/// @file
+
 #include "ostream"
 #include "catch_with_main.hpp"
 #include "vector.hpp"
 
+
+///return (x,y)
+//
+///This function returns the x and y values of a vector in the form of (x,y)
 std::ostream & operator<<( std::ostream & lhs, vector pos ){
 	lhs << "(" << pos.x << "," << pos.y << ")";
 	return lhs;
+}
+
+
+///int times vector
+//
+///This function get a integer and a vector and dus the integer times the vector
+vector operator*(const int lhs, vector rhs){
+	return vector(lhs*rhs.x, lhs*rhs.y);
 }
 
 TEST_CASE("print vectors"){
@@ -59,6 +73,12 @@ TEST_CASE( "Vector times another vector" ){
 TEST_CASE( "vector times the rhs" ){
 	vector v(3,4);
 	v = v*3;
+	REQUIRE(v == vector(9, 12));
+}
+
+TEST_CASE("lhs times a vector"){
+	vector v(3,4);
+	v = 3*v;
 	REQUIRE(v == vector(9, 12));
 }
 

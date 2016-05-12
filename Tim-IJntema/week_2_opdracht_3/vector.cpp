@@ -1,7 +1,5 @@
 #include "vector.hpp"
 
-//bij een reference hoeft er geen const bij maar bij een kopie wel
-
 vector::vector()
 {}
 
