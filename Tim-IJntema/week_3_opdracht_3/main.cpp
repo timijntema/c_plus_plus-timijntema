@@ -2,8 +2,7 @@
 #include "line.hpp"
 #include "ball.hpp"
 #include "wall.hpp"
-
-//add the function of the speed multiplying by the bounce in drawable at the momemt of object collision
+#include "victim.hpp"
 
 int main(){
    window w( vector( 128, 64 ), 2 );
@@ -12,8 +11,9 @@ int main(){
    wall bricksL(w, vector (0, 4), vector (4, 59), 2, vector(3, 1));
    wall bricksD(w, vector (0, 59), vector (127, 63), 2, vector(1,-3));
    ball b( w, vector( 10, 10 ), 8, vector( 2, 2 ), bricksL, bricksR, bricksU, bricksD);
+   victim veee(w, vector(70, 35), vector(100, 57), b);
    
-   drawable * objects[] = { &b,&bricksU, &bricksD, &bricksL, &bricksR};
+   drawable * objects[] = { &b,&bricksU, &bricksD, &bricksL, &bricksR, &veee};
 
    for(;;){
       w.clear();
@@ -22,7 +22,6 @@ int main(){
       }
       wait_ms( 100 );
       for( auto & p : objects ){
-		  
           p->update();
       }
    }
