@@ -3,29 +3,9 @@
   <Project Name="week_1_opdracht_2" Path="week_1_opdracht_2/_codelite.project" Active="No"/>
   <Project Name="week_1_oprdacht_1" Path="week_1_oprdacht_1/_codelite.project" Active="No"/>
   <Project Name="week_2_opdracht_1" Path="week_2_opdracht_1/_codelite.project" Active="No"/>
-  <BuildMatrix>
-    <WorkspaceConfiguration Name="Release" Selected="yes">
-      <Project Name="week_2_opdracht_1" ConfigName="Release"/>
-    </WorkspaceConfiguration>
-  </BuildMatrix>
   <Project Name="week_2_opdracht_2" Path="week_2_opdracht_2/_codelite.project" Active="No"/>
-  <BuildMatrix>
-    <WorkspaceConfiguration Name="Release" Selected="yes">
-      <Project Name="week_2_opdracht_2" ConfigName="Release"/>
-    </WorkspaceConfiguration>
-  </BuildMatrix>
   <Project Name="week_2_opdracht_3" Path="week_2_opdracht_3/_codelite.project" Active="No"/>
-  <BuildMatrix>
-    <WorkspaceConfiguration Name="Release" Selected="yes">
-      <Project Name="week_2_opdracht_3" ConfigName="Release"/>
-    </WorkspaceConfiguration>
-  </BuildMatrix>
   <Project Name="week_3_opdracht_1" Path="week_3_opdracht_1/_codelite.project" Active="No"/>
-  <BuildMatrix>
-    <WorkspaceConfiguration Name="Release" Selected="yes">
-      <Project Name="week_3_opdracht_1" ConfigName="Release"/>
-    </WorkspaceConfiguration>
-  </BuildMatrix>
   <Project Name="week_3_opdracht_2" Path="week_3_opdracht_2/_codelite.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Release" Selected="yes">
@@ -38,7 +18,7 @@
       <Project Name="week_3_opdracht_3" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
-  <Project Name="week_3_opdracht_3v2" Path="week_3_opdracht_3v2/_codelite.project" Active="Yes"/>
+  <Project Name="week_3_opdracht_3v2" Path="week_3_opdracht_3v2/_codelite.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Project Name="week_3_opdracht_3v2" ConfigName="Release"/>
@@ -70,6 +50,38 @@
       <Project Name="week_3_opdracht_2" ConfigName="Debug"/>
       <Project Name="week_3_opdracht_3" ConfigName="Debug"/>
       <Project Name="week_3_opdracht_3v2" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <Project Name="week_4_opdracht_1" Path="week_4_opdracht_1/week_4_opdracht_1.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="week_2_opdracht_1" ConfigName="Release"/>
+      <Project Name="week_4_opdracht_1" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <Project Name="week_4_opdracht_2" Path="week_4_opdracht_2/week_4_opdracht_2.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="week_2_opdracht_2" ConfigName="Release"/>
+      <Project Name="week_4_opdracht_2" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <Project Name="week_4_opdracht_3" Path="week_4_opdracht_3/week_4_opdracht_3.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="week_2_opdracht_3" ConfigName="Release"/>
+      <Project Name="week_4_opdracht_3" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <Project Name="week_4_opdracht_4" Path="week_4_opdracht_4/week_4_opdracht_4.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="week_3_opdracht_1" ConfigName="Release"/>
+      <Project Name="week_4_opdracht_4" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
