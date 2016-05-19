@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="example code" Database="">
   <Project Name="week_1_opdracht_2" Path="week_1_opdracht_2/_codelite.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="week_1_opdracht_2" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
   <Project Name="week_1_oprdacht_1" Path="week_1_oprdacht_1/_codelite.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Release" Selected="yes">
@@ -73,12 +78,16 @@
       <Project Name="week_4_opdracht_4" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
-  <Project Name="week_4_opdracht_5" Path="week_4_opdracht_5/week_4_opdracht_5.project" Active="Yes"/>
+  <Project Name="week_4_opdracht_5" Path="week_4_opdracht_5/_codelite.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Release" Selected="yes">
-      <Environment/>
-      <Project Name="week_1_opdracht_2" ConfigName="Release"/>
       <Project Name="week_4_opdracht_5" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <Project Name="week_4_opdracht_6" Path="week_4_opdracht_6/_codelite.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="week_4_opdracht_6" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
