@@ -20,10 +20,11 @@ void wall::draw(){
 }
 
 void wall::update(){
-	if (filled){
+	filled != filled
+	/*if (filled){
 		filled = false;
 	}
 	else{
 		filled = true;
-	}
+	}*/
 }

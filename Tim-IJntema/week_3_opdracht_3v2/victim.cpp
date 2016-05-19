@@ -9,7 +9,7 @@ rectangle(w,start,end)
 
 void victim::update(){
 	if (makesmaller == 1){
-		if (!(start.x >= end.x || start.y >= end.y)){
+		if (!(location.x >= end.x || location.y >= end.y)){
 			location.x = location.x +5;
 			location.y = location.y +5;
 			end.x = end.x - 5;

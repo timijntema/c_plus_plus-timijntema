@@ -4,16 +4,15 @@
 #include "rectangle.hpp"
 
 rectangle::rectangle( window & w, const vector & start, const vector & end ):
-   drawable( w, start, end, 0),
-   start(start),
-   end(end),
-   left(   w, vector( start.x, start.y ), vector( start.x, end.y   ) ),
-   right(  w, vector( end.x,   start.y ), vector( end.x,   end.y   ) ),
-   top(    w, vector( start.x, start.y ), vector( end.x,   start.y ) ),
-   bottom( w, vector( start.x, end.y   ), vector( end.x,   end.y   ) )
+   drawable( w, start, end, 0)
 {}
 
 void rectangle::draw(){
+	line left(   w, vector( location.x, location.y ), vector( location.x, end.y   ) );
+	line right(  w, vector( end.x,   location.y ), vector( end.x,   end.y   ) );
+	line top(    w, vector( location.x, location.y ), vector( end.x,   location.y ) );
+	line bottom( w, vector( location.x, end.y   ), vector( end.x,   end.y   ) );
+   	
    left.draw();
    right.draw();
    top.draw();

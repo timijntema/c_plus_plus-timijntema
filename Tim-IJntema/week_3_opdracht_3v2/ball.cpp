@@ -3,8 +3,6 @@
 using namespace std;
 
 void ball::update(){
-	//cout << location.y << ' ';
-	
 	if (location.x <= (L.end.x+radius)){
 		location += L.bounce;
 		if (sideLastTouched == 3){
@@ -21,7 +19,7 @@ void ball::update(){
 		}
 		sideLastTouched = 2;
 	}
-	else if (location.y <= (U.end.y+radius)){//misschien + en <=
+	else if (location.y <= (U.end.y+radius)){
 		location += U.bounce;
 		if (sideLastTouched == 2){
 			bouncedirx = -1;

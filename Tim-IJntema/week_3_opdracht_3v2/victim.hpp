@@ -9,8 +9,6 @@
 
 class victim : public rectangle {
 private:
-	//vector start;
-	//vector end;
 	int makesmaller = 0;
 public:
 	victim(window & w, vector start, vector end);

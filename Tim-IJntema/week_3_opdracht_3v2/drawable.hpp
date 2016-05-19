@@ -12,7 +12,6 @@ protected:
    window w;
    vector bounce;
    vector end;
-   //int radius;
    vector location;//betere manier
    int radius;
 public:
