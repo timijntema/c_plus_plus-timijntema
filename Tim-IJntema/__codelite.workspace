@@ -54,7 +54,7 @@
       <Project Name="week_3_opdracht_3v2" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
-  <Project Name="week_4_opdracht_1" Path="week_4_opdracht_1/_codelite.project" Active="No"/>
+  <Project Name="week_4_opdracht_1" Path="week_4_opdracht_1/_codelite.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Project Name="week_4_opdracht_1" ConfigName="Release"/>
@@ -84,7 +84,7 @@
       <Project Name="week_4_opdracht_5" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
-  <Project Name="week_4_opdracht_6" Path="week_4_opdracht_6/_codelite.project" Active="Yes"/>
+  <Project Name="week_4_opdracht_6" Path="week_4_opdracht_6/_codelite.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Project Name="week_4_opdracht_6" ConfigName="Release"/>

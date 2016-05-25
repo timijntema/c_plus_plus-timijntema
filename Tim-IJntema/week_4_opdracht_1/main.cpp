@@ -22,4 +22,3 @@ int main( void ){
    }
 }
 //! [[Doxygen blink example]]
-
