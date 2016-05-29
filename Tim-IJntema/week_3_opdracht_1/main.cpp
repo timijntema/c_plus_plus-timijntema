@@ -18,9 +18,8 @@ int main(){
       for( auto & p : objects ){
          p->draw();
       }
-      wait_ms( 100 );
+      wait_ms( 300 );
       for( auto & p : objects ){
-		  
           p->update();
       }
    }

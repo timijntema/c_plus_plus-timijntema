@@ -6,7 +6,8 @@ unfilled(w, location, end ),
 filledrec(w, location, end),
 bounce(bounce),
 location(location),
-end(end)
+end(end),
+update_intervall(update_intervall)
 {}
 
 void wall::draw(){
@@ -19,10 +20,14 @@ void wall::draw(){
 }
 
 void wall::update(){
-	if (filled){
-		filled = false;
+	if (update_intervall == update_intervallcounter){
+		if (filled){
+			filled = false;
+		}
+		else{
+			filled = true;
+		}
+		update_intervallcounter = 0;
 	}
-	else{
-		filled = true;
-	}
+	update_intervallcounter++;
 }

@@ -1,65 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="example code" Database="">
   <Project Name="week_1_opdracht_2" Path="week_1_opdracht_2/_codelite.project" Active="No"/>
-  <BuildMatrix>
-    <WorkspaceConfiguration Name="Release" Selected="yes">
-      <Project Name="week_1_opdracht_2" ConfigName="Release"/>
-    </WorkspaceConfiguration>
-  </BuildMatrix>
   <Project Name="week_1_oprdacht_1" Path="week_1_oprdacht_1/_codelite.project" Active="No"/>
-  <BuildMatrix>
-    <WorkspaceConfiguration Name="Release" Selected="yes">
-      <Project Name="week_1_oprdacht_1" ConfigName="Release"/>
-    </WorkspaceConfiguration>
-  </BuildMatrix>
   <Project Name="week_2_opdracht_1" Path="week_2_opdracht_1/_codelite.project" Active="No"/>
-  <BuildMatrix>
-    <WorkspaceConfiguration Name="Release" Selected="yes">
-      <Project Name="week_2_opdracht_1" ConfigName="Release"/>
-    </WorkspaceConfiguration>
-  </BuildMatrix>
   <Project Name="week_2_opdracht_2" Path="week_2_opdracht_2/_codelite.project" Active="No"/>
-  <BuildMatrix>
-    <WorkspaceConfiguration Name="Release" Selected="yes">
-      <Project Name="week_2_opdracht_2" ConfigName="Release"/>
-    </WorkspaceConfiguration>
-  </BuildMatrix>
   <Project Name="week_2_opdracht_3" Path="week_2_opdracht_3/_codelite.project" Active="No"/>
-  <BuildMatrix>
-    <WorkspaceConfiguration Name="Release" Selected="yes">
-      <Project Name="week_2_opdracht_3" ConfigName="Release"/>
-    </WorkspaceConfiguration>
-  </BuildMatrix>
   <Project Name="week_3_opdracht_1" Path="week_3_opdracht_1/_codelite.project" Active="No"/>
-  <BuildMatrix>
-    <WorkspaceConfiguration Name="Release" Selected="yes">
-      <Project Name="week_3_opdracht_1" ConfigName="Release"/>
-    </WorkspaceConfiguration>
-  </BuildMatrix>
-  <Project Name="week_3_opdracht_2" Path="week_3_opdracht_2/_codelite.project" Active="No"/>
-  <BuildMatrix>
-    <WorkspaceConfiguration Name="Release" Selected="yes">
-      <Project Name="week_3_opdracht_2" ConfigName="Release"/>
-    </WorkspaceConfiguration>
-  </BuildMatrix>
-  <Project Name="week_3_opdracht_3" Path="week_3_opdracht_3/_codelite.project" Active="No"/>
-  <BuildMatrix>
-    <WorkspaceConfiguration Name="Release" Selected="yes">
-      <Project Name="week_3_opdracht_3" ConfigName="Release"/>
-    </WorkspaceConfiguration>
-  </BuildMatrix>
+  <Project Name="week_3_opdracht_2v2" Path="week_3_opdracht_2v2/_codelite.project" Active="Yes"/>
   <Project Name="week_3_opdracht_3v2" Path="week_3_opdracht_3v2/_codelite.project" Active="No"/>
-  <BuildMatrix>
-    <WorkspaceConfiguration Name="Release" Selected="yes">
-      <Project Name="week_3_opdracht_3v2" ConfigName="Release"/>
-    </WorkspaceConfiguration>
-  </BuildMatrix>
-  <Project Name="week_4_opdracht_1" Path="week_4_opdracht_1/_codelite.project" Active="Yes"/>
-  <BuildMatrix>
-    <WorkspaceConfiguration Name="Release" Selected="yes">
-      <Project Name="week_4_opdracht_1" ConfigName="Release"/>
-    </WorkspaceConfiguration>
-  </BuildMatrix>
+  <Project Name="week_4_opdracht_1" Path="week_4_opdracht_1/_codelite.project" Active="No"/>
   <Project Name="week_4_opdracht_2" Path="week_4_opdracht_2/_codelite.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Release" Selected="yes">
@@ -88,6 +37,206 @@
   <BuildMatrix>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Project Name="week_4_opdracht_6" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="week_1_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_1_oprdacht_1" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_3" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_2v2" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_3v2" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_3" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_4" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_5" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_6" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="week_1_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_1_oprdacht_1" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_3" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_2v2" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_3v2" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_3" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_4" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_5" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_6" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="week_1_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_1_oprdacht_1" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_3" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_2v2" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_3v2" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_3" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_4" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_5" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_6" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="week_1_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_1_oprdacht_1" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_3" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_2v2" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_3v2" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_3" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_4" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_5" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_6" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="week_1_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_1_oprdacht_1" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_3" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_2v2" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_3v2" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_3" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_4" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_5" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_6" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="week_1_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_1_oprdacht_1" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_3" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_2v2" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_3v2" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_3" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_4" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_5" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_6" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="week_1_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_1_oprdacht_1" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_3" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_2v2" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_3v2" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_3" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_4" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_5" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_6" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="week_1_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_1_oprdacht_1" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_3" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_2v2" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_3v2" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_3" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_4" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_5" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_6" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="week_1_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_1_oprdacht_1" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_3" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_2v2" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_3v2" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_3" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_4" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_5" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_6" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="week_1_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_1_oprdacht_1" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_2_opdracht_3" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_2v2" ConfigName="Debug"/>
+      <Project Name="week_3_opdracht_3v2" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_1" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_2" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_3" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_4" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_5" ConfigName="Debug"/>
+      <Project Name="week_4_opdracht_6" ConfigName="Debug"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

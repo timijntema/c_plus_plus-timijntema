@@ -11,7 +11,8 @@ public:
 	p2(p2)
 	{}
 	bool get() override{
-		return (!(p1.get()) && !(p2.get()));
+		//return (!(p1.get()) && !(p2.get()));
+		return !(p1.get() && p2.get());
 	}
 };
 
@@ -25,12 +26,14 @@ int main()
 	dualInputAnd decorator1(button0, button1);
 	
 	while(1){
+		led0.set(decorator1.get());
+		/*
 		if(decorator1.get()){
 			led0.set(1);//if the 2 buttons are pressed turn on the LED
 		}
 		else{
 			led0.set(0);//if the 2 buttons are not pressed turn off the LED
-		}
+		}*/
 	}
 	return 0;
 }

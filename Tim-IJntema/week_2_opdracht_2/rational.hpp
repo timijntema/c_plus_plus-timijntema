@@ -13,13 +13,13 @@
 /// and denominator have no common factors.
 class rational {
 private:
-	//int counter;//maybe on the bottom
+	//int counter;
 	//int denominator;
 	void reduce(){
 		int a = counter;
 		int b = denominator;
 
-		while( b){// != 0 
+		while( b){
 			int temp = b;
 			b = a % b;
 			a = temp;
@@ -31,7 +31,7 @@ private:
 		}
 	}
 public:
-	int counter;//maybe on the bottom
+	int counter;
 	int denominator;
    /// constructor from explicit values
    //
@@ -92,12 +92,11 @@ public:
    //
    ///Multiply a rational by another rational and assign it to the first rational
    rational & operator*=( const rational & rhs ){
-      counter *= rhs.counter;
-      denominator *= rhs.denominator;
-	  reduce();
-      return *this;
-   }
-   
+	counter *= rhs.counter;
+	denominator *= rhs.denominator;
+	reduce();
+	return *this;
+}
 };
 
 #endif

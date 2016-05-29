@@ -40,6 +40,7 @@ vector & vector::operator-=(const vector & rhs){
 	return *this;
 }
 
+
 vector vector::operator*(const vector & rhs) const{
 	return vector(x*rhs.x, y*rhs.y);
 }
@@ -47,6 +48,7 @@ vector vector::operator*(const vector & rhs) const{
 vector vector::operator*(int times) const{
 	return vector(x*times, y*times);
 }
+
 
 vector & vector::operator*=(const vector & rhs){
 	x*=rhs.x;

@@ -22,6 +22,7 @@
   <VirtualDirectory Name="src">
     <File Name="main.cpp"/>
     <File Name="rational.hpp"/>
+    <File Name="What i changed"/>
   </VirtualDirectory>
   <Settings Type="Executable">
     <GlobalSettings>

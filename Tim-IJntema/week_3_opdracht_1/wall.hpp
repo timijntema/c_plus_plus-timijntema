@@ -11,6 +11,7 @@ class wall : public drawable{
 private:
 	bool filled = true;
 	int update_intervall;
+	int update_intervallcounter = 0;
 	int update_count = 0;
 	filled_rectangle filledrec;
 	rectangle unfilled;

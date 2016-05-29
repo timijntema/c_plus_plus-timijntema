@@ -1,0 +1,8 @@
+I created a operator<< that prints a rational as an hexadecimal with leading zeros
+I moved the rational and denominator variables to the public part of the class so the operator<< would be able to use them
+I called the reduce function in the constructor to reduce all newly made rational objects
+I changed the || to a && to get the operator== working correctly
+I commented away the old operator<< to make sure the program dusn't call that one instead of my self build version
+In the operator* i removed the * rhs after the denominator because it isnt supposed to do the denominator times an integer
+In the operator* with rational rhs i switched around the .counter and .denominator to make it correct
+in the operator*= i changed the counter = counter+rhs.counter to counter = rhs.counter. I did the same with the denominator line. I also added a reference to the function name (rational & operator...... instead of rational operator......)

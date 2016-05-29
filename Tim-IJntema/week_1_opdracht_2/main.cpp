@@ -1,10 +1,10 @@
 #include <iostream>
 #include "composition.hpp"
 
-int main(int argc, char **argv)
+int main()
 {
 	window w( 400, 100, 2 );
-	composition comp1(w, 0, 5);
+	composition comp1(w, 10, 5);
 	comp1.print();
 	return 0;
 }
