@@ -12,7 +12,7 @@ public:
 	{}
 	bool get() override{
 		//return (!(p1.get()) && !(p2.get()));
-		return !(p1.get() && p2.get());
+		return (p1.get() == 0 && p2.get() == 0);
 	}
 };
 
@@ -27,13 +27,6 @@ int main()
 	
 	while(1){
 		led0.set(decorator1.get());
-		/*
-		if(decorator1.get()){
-			led0.set(1);//if the 2 buttons are pressed turn on the LED
-		}
-		else{
-			led0.set(0);//if the 2 buttons are not pressed turn off the LED
-		}*/
 	}
 	return 0;
 }
